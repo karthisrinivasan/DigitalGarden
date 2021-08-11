@@ -160,7 +160,7 @@
 ## Information Transmission
 - Info=$\frac{1}{2}log_2(1+SNR)$: Gaussian model
 - SNR: Signal variance / unexplained variance(RMSE)
-- $Info(\omega_n)=\frac{1}{2}log_2[\frac{\langle |A(\omega_n)|^2\rangle_A}{\langle |A(\omega_n)|^2\rangle_A-\frac{\langle |A(\omega_n)R^*(\omega_n;A)\rangle_A|^2}{\langle |R(\omega_n,A)|^2\rangle_A}}]$
+- $Info(\omega_n)=\frac{1}{2}log_2[\frac{\langle (\omega_n)^2\rangle_A}{\langle A(\omega_n)^2\rangle_A-\frac{\langle A(\omega_n)R^*(\omega_n;A)\rangle_A^2}{\langle R(\omega_n,A)^2\rangle_A}}]$
 - Rate$(R_I)=\frac{\delta\omega}{4\pi}\sum Info(\omega_n)$
 
 ## Adaptive LIF
