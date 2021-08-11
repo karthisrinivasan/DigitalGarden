@@ -161,7 +161,7 @@
 	- ![Pasted image 20210514183202.png](Pasted%20image%2020210514183202.png)
 
 - Relation between activation fields and discrete activation variables
-- ![Pasted image 202L10514183449.png](Pasted%20image%20202L10514183449.png)
+- ![Pasted image 20210514183449.png](Pasted%20image%20202L10514183449.png)
 	- Global inhibition :: Mutual inhibition
 	- Local Excitation :: Self excitation
 - Local populations are the substrate for representation (not individual neurons)
