@@ -1,0 +1,1 @@
+Obsidian uses a graph to show which notes are linked to which. Really helps to visualize how different concepts are connected.

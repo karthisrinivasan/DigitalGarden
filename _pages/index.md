@@ -11,7 +11,7 @@ I read quite a few papers and textbooks for my research work and I've always bee
 
 A book I'm currently reading: [[Dynamic Field Theory]]
 
-The [[Research]] and [[Neuromorphic]] notes are a good place to start exploring this garden as they are the most backlinked-to ones. Also, scroll to the bottom of any note webpage to see the relational graph!
+The [[Research]] note is a good place to start exploring this garden as it is one of the most backlinked-to notes. Also check out the [[Graph]], which is also available at the bottom of every note.
 
 <style>
   .wrapper {
