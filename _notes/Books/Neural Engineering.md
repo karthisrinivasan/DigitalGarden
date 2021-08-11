@@ -145,11 +145,11 @@
 - $E=\frac{1}{T^2}\int_0^T\int_0^T[W(t-t_{\alpha})*\Delta S(t;A)]^2dtdt_{\alpha}$
 	- Limits ideally $2\Delta t$, $T-2\Delta t$ but Gaussian so it's fine
 - $\Delta S(t;A)=S(t;A)-h(t)*R(t;A)$
-	- $S$ -> rasmples, randomly generated
+	- $S$ -> samples, randomly generated
 - After some Fourier transforms:
-- $E=\int\int|W(\omega-\omega')|^2|\Delta S(\omega;A)|^2d\omega d\omega'$
+- $E=\int\intW(\omega-\omega')^2\Delta S(\omega;A)^2d\omega d\omega'$
 - Differentiating and setting to zero:
-- $h(\omega)=\frac{\langle A(\omega)R^*(\omega)\rangle_A}{\langle|R(\omega;A)|^2\rangle_A}$
+- $h(\omega)=\frac{\langle A(\omega)R^*(\omega)\rangle_A}{\langleR(\omega;A)^2\rangle_A}$
 	- Optimal linear decoder does not depend on nature of encoding
 
 >Spike encoding introduces spurious power at high frequencies
