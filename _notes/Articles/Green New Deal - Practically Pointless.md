@@ -1,0 +1,19 @@
+[[Articles]]
+- [[Climate Change]] 
+- Renewables rely on rare earth metals
+- Lotsa new mines needed
+- Hawk's Nest Incident 1930
+	- Union Carbide hydel plant
+	- Miners hit silica vein, dust filled	800 died of silicosis
+- Green energy isn't really carbon neutral
+- Container ships carrying renewables freight - 3% of GHG emissions
+- Capitalism and sustainability are incompatible
+- Not enough land for renewables + new forests + industries
+- Growth and emission correlated
+- New tech (fracking etc.) push coal/oil vs. renewable price equality point way into the future
+- Carbon taxes will force prices down, and selling in countries without those taxes
+	- Fossil capitalists will throw everything they have into the fight
+	- $50 trillion in oil reserve vs. $300 trillion in total wealth in the world
+- Capital is an agent, not object
+- Individual capitalists will get undercut even if they want to adhere
+- GND: Big Mood, not Grand Plan
