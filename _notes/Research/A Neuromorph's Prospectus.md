@@ -4,8 +4,8 @@
 [Research](Research.md)
 ### Introduction
 - Energy efficiency of using multiple low-quality channels
-- ![[Pasted image 20210522195214.png]]
-- ![[Pasted image 20210522195547.png]]
+- ![Pasted image 20210522195214.png](Pasted%20image%2020210522195214.png)
+- ![Pasted image 20210522195547.png](Pasted%20image%2020210522195547.png)
 
 Five point plan
 - Implement computation with sub-threshold analog circuits 
@@ -25,15 +25,15 @@ Five point plan
 - Map cortical area onto group of Neurocores spanned by sub-tree of interchip-routing network
 - Columnar organization: [[Neocortical Columns]]
 - 1 million neurons, 1 billion synapses
-- ![[Pasted image 20210522224329.png]]
+- ![Pasted image 20210522224329.png](Pasted%20image%2020210522224329.png)
 
 #### Overlapping Dendrites and Hierarchical Axons
 - Overlapping dendritic trees extend branches to meet incoming axons, instead of axons branching out
 - Emulated using crossbar
-- ![[Pasted image 20210522224655.png]]
+- ![Pasted image 20210522224655.png](Pasted%20image%2020210522224655.png)
 - Hierarchical axonal arbors minimize wiring by replacing n long branches by 1 long branch terminated by n short branches
 - Emulated by tree-like routing network
-- ![[Pasted image 20210522224843.png]]
+- ![Pasted image 20210522224843.png](Pasted%20image%2020210522224843.png)
 
 #### Neural Engineering Framework
 - Spike trains encode vector of $D$ continuous signals
@@ -49,7 +49,7 @@ Five point plan
 	- Not required in NEF though
 - Programmable connections
 - Heterogeneous population
-- ![[Pasted image 20210522225658.png]]
+- ![Pasted image 20210522225658.png](Pasted%20image%2020210522225658.png)
 
 First NEF-based spiking neuron model brain: Spaun
 ![[Pasted image 20210522231114.png]]
@@ -58,11 +58,11 @@ First NEF-based spiking neuron model brain: Spaun
 ### Efficient Spike Coding
 - Coordinated spiking codes
 	- Scale precision linearly with spike rate
-- ![[Pasted image 20210522231531.png]]
+- ![Pasted image 20210522231531.png](Pasted%20image%2020210522231531.png)
 
 #### [[Coordinated Spiking Network]]
 - Difference wrt NEF network
 	- Cell body's contribution to dendrite signal chosen randomly
 	- Fraction of dendrite's signal delivered to cell body is chosen deterministically
-- ![[Pasted image 20210522232116.png]]
+- ![Pasted image 20210522232116.png](Pasted%20image%2020210522232116.png)
 
