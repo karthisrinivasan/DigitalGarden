@@ -147,9 +147,9 @@
 - $\Delta S(t;A)=S(t;A)-h(t)*R(t;A)$
 	- $S$ -> samples, randomly generated
 - After some Fourier transforms:
-- $E=\int\intW(\omega-\omega')^2\Delta S(\omega;A)^2d\omega d\omega'$
+- $E=\int\int W(\omega-\omega')^2\Delta S(\omega;A)^2d\omega d\omega'$
 - Differentiating and setting to zero:
-- $h(\omega)=\frac{\langle A(\omega)R^*(\omega)\rangle_A}{\langleR(\omega;A)^2\rangle_A}$
+- $h(\omega)=\frac{\langle A(\omega)R^*(\omega)\rangle_A}{\langle R(\omega;A)^2\rangle_A}$
 	- Optimal linear decoder does not depend on nature of encoding
 
 >Spike encoding introduces spurious power at high frequencies
