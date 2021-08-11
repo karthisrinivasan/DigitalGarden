@@ -5,15 +5,9 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# Welcome to Karthi's Digital Garden! 🌱
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
-
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
-
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll). If you need any help, my [DMs are open on Twitter (@vaillancourtmax)](https://twitter.com/vaillancourtmax). 👋
+I read quite a few papers and textbooks for my research work and I've always been overwhelmed by the density of information in them. To help me collate and revise the material better, I started using [Obsidian](https://obsidian.md). Once the database started growing, I wanted to release it to the world so other people can (maybe) benefit from it. Hence this project.
 
 <style>
   .wrapper {
