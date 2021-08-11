@@ -19,4 +19,3 @@
 	- Nonlinear process (gain compression)
 - Feedback effects like increased water vapor amount in air
 - Water vapor biggest uncertainty factor in warming predictions
-- 

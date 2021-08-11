@@ -30,4 +30,3 @@
 - EDCs -> Endocrine Disrupting Chemicals
 	- Disrupt testosterone
 	- Phenols, Phthalates
-- 

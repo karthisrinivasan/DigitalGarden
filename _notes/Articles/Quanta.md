@@ -35,7 +35,7 @@
 - Helical magnetic fields that draw energy out of the black hole
 - Spinning BH causes the field lines falling in from the accretion disk to twist
 - Magnetic fields form force fields around the BH, keeping accretion disk in place -> Magnetically Arrested Disk (MAD) model (almost confirmed)
-- ![[Pasted image 20210522101422.png]]
+- ![Pasted image 20210522101422.png](Pasted%20image%2020210522101422.png)
 
 # Deep Sea Biosphere
 - Serpentinization
@@ -52,4 +52,3 @@
 	- Reverse process then happens
 	- Net energy absorbed is zero
 - Only discrete time translation symmetry (every period of laser)
-- 

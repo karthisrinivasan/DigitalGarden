@@ -90,7 +90,7 @@ Develops competitor product
 - Interview with researcher at lab
 	- The Batwoman
 	- Place of coronavirus density not anywhere near Wuhan
-	- ![[Pasted image 20210702180825.png]]
+	- ![Pasted image 20210702180825.png](Pasted%20image%2020210702180825.png)
 	- SARS broke out here too
 	- Thought it was most likely from lab
 	- None of the samples in the lab were same as the Covid-19 

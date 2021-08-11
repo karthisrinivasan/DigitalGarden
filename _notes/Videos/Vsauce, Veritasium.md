@@ -15,4 +15,3 @@
 - Bacteria evolving in increasingly concentrated antibiotic cultures
 - Comparison across thousands of generations
 - Direct proof of Darwinian evolution
-- 

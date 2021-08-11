@@ -26,4 +26,3 @@
 - Similar to Second Life, Roblox, Fortnite but bigger
 - Interoperable across platforms
 - facebook will probably want a monopoly soon though
-- 

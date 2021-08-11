@@ -182,7 +182,7 @@
 	- $\sigma$ -> input
 - 100x more computationally intensive than LIF
 - Spike shape not modeled
-- ![[Pasted image 20210709152942.png]]
+- ![Pasted image 20210709152942.png](Pasted%20image%2020210709152942.png)
 
 ## Wilson Neuron
 - Simplified HH model
@@ -231,4 +231,3 @@ graph LR;
 	a-->c;
 	c-->z;
 ```
-- 

@@ -13,4 +13,3 @@
 - Wrote down renting and infrastructure cost as assets
 - Scam unearthed by auditor
 - CEO and top officials sentenced
-- 

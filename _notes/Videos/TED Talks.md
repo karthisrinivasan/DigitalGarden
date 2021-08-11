@@ -34,4 +34,4 @@
 - Ear - inbuilt spectrum analyzer
 - Emulating quantum computing
 	- Quantum cochlea
-- ![[Pasted image 20210517140744.png]]
+- ![Pasted image 20210517140744.png](Pasted%20image%2020210517140744.png)

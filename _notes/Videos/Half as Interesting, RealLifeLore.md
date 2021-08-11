@@ -52,4 +52,3 @@
 - Valleys govern themselves, central govt. power is loose
 	- Passes are natural choke points
 - Khyber pass -> 80% of NATO supplies went through this
-- 

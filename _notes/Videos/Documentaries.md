@@ -16,4 +16,3 @@
 	- Vetoed by Nixon
 - Manhattan demonstration
 - Disabled in Action, civil rights group
-- 

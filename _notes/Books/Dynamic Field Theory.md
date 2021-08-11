@@ -20,9 +20,9 @@
 ### Foundations
 - [[Braitenberg Vehicle]] - neural account of behavior
 	- Sensors, effectors, nervous systems, bodies
-	- ![[Pasted image 20210513090719.png]]
+	- ![Pasted image 20210513090719.png](Pasted%20image%2020210513090719.png)
 	- Taxis vehicle - orients towards stimulus
-	- ![[Pasted image 20210513090909.png]]
+	- ![Pasted image 20210513090909.png](Pasted%20image%2020210513090909.png)
 	- Structured environment - meaningful behavior
 	- fifth component of the vehicle
 	- vehicle + environment - dynamical system
@@ -58,11 +58,11 @@
 
 - Noise addition to constant activation
 	- $\tau\dot{u}=\zeta(t)$
-	- ![[Pasted image 20210513105024.png]]
+	- ![Pasted image 20210513105024.png](Pasted%20image%2020210513105024.png)
 	- Random walk; Brownian motion
 - With stabilizing force:
 	- $\tau\dot{u}=-u+h+\zeta(t)$
-	- ![[Pasted image 20210513105225.png]]
+	- ![Pasted image 20210513105225.png](Pasted%20image%2020210513105225.png)
 - Convergence to fixed point - relaxation
 
 #### Self-Excitation and Detection Instability
@@ -70,8 +70,8 @@
 - $\tau\dot{u}=-u+h+s(t)+cg(u)$
 	- $s(t)$ - input
 	- $g(u)$ - sigmoid threshold
-	- ![[Pasted image 20210513110839.png]]
-	- ![[Pasted image 20210513110910.png]]
+	- ![Pasted image 20210513110839.png](Pasted%20image%2020210513110839.png)
+	- ![Pasted image 20210513110910.png](Pasted%20image%2020210513110910.png)
 	- Bifurcation - collision/splitting of fixed points
 - Detection instability  
 	- decision that significant input has been detected
@@ -80,7 +80,7 @@
 - If input drops low enough - back to monostable off regime
 	- reverse detection instability
 - Decision hysteresis
-	- ![[Pasted image 20210513111626.png]]
+	- ![Pasted image 20210513111626.png](Pasted%20image%2020210513111626.png)
 	- inertia of response
 	- detection of apparent motion - visual motion seen between location where there is luminance change
 		- BRLC - background relative luminance contrast
@@ -92,26 +92,26 @@
 - Stimulation does not uniquely determine inner state - hysteresis
 - Working memory - bistable coexistence of off and on states
 - Input triggers activation into on state, where it can remain indefinitely
-- ![[Pasted image 20210513112523.png]]
+- ![Pasted image 20210513112523.png](Pasted%20image%2020210513112523.png)
 
 #### Inhibitory Interaction and Selection
 - Two activation variables
 - $\tau\dot{u_1}=-u_1+h+s_1(t)-c_{12}g(u_2)+\zeta_1(t)$
 - $\tau\dot{u_2}=-u_2+h+s_2(t)-c_{21}g(u_1)+\zeta_2(t)$
 - Same resting level but different input, different noise sources
-- ![[Pasted image 20210513112851.png]]
+- ![Pasted image 20210513112851.png](Pasted%20image%2020210513112851.png)
 - Mutual inhibitory coupling
 - Assume $u_2>0$ before $u_1$ left its resting level
 - u1 gets pulled down
 - u2 wins competition
-- ![[Pasted image 20210513113215.png]]
+- ![Pasted image 20210513113215.png](Pasted%20image%2020210513113215.png)
 	- Top: the gray line is the dynamics of u1 when u2 is sufficiently below zero so that the sigmoid yields zero.
 	- Bottom: The solid black line is the dynamics of u2 when u1 is below zero.
 - Activating one suppresses the other
 - Attractor of second pushed way below zero
 - Maintaining the selection decision
 - Caveat: if input to suppressed variable is very high, it oculd overcome
-- ![[Pasted image 20210513113522.png]]
+- ![Pasted image 20210513113522.png](Pasted%20image%2020210513113522.png)
 	- Left: The dynamics of one of two competing activation variables is plotted in three cases: without external input (solid), and with external input but without (dotted) versus with (dashed) inhibition from the other activation variable.
 	- Right: Activation trajectories for both activation variables are shown (one in solid black, the other in solid gray).
 	- Same input but random fluctuations tip the balance
@@ -125,7 +125,7 @@
 ### Spaces
 - Continuous variation of objects in vision
 - Dimensions to describe real-world percepts
-- ![[Pasted image 20210514180024.png]]
+- ![Pasted image 20210514180024.png](Pasted%20image%2020210514180024.png)
 
 ### Activation Fields
 - Continuum of activation variables, labeled by continuous position
@@ -134,7 +134,7 @@
 	- Fact that instance has been created that can affect other downstream networks (go signals)
 	- Location of peak - metric information along the dimensions - estimate of perceptual state
 - One stimulus followed by two:
-- ![[Pasted image 20210514181439.png]]
+- ![Pasted image 20210514181439.png](Pasted%20image%2020210514181439.png)
 - Depending on angular separation, network perceives three different things:
 	- Averaging (fusion)
 	- Splitting (transparency)
@@ -158,10 +158,10 @@
 - Activation peaks - attractors
 	- Local excitatory interaction stabilizes peaks
 	- Inhibitory interaction over longer distances counter balances
-	- ![[Pasted image 20210514183202.png]]
+	- ![Pasted image 20210514183202.png](Pasted%20image%2020210514183202.png)
 
 - Relation between activation fields and discrete activation variables
-- ![[Pasted image 20210514183449.png]]
+- ![Pasted image 202L10514183449.png](Pasted%20image%20202L10514183449.png)
 	- Global inhibition :: Mutual inhibition
 	- Local Excitation :: Self excitation
 - Local populations are the substrate for representation (not individual neurons)
@@ -176,10 +176,10 @@
 	- Stationary solution: sub-threshold attractor state
 		- $u_0(x,t)=h+s(x,t)$
 		- Disappears in presence of sufficiently strong input
-		- ![[Pasted image 20210514190201.png]]
+		- ![Pasted image 20210514190201.png](Pasted%20image%2020210514190201.png)
 - Interaction engaged when activation approaches zero from below anywhere
 - Gaussian input:
-- ![[Pasted image 20210514191858.png]]
+- ![Pasted image 20210514191858.png](Pasted%20image%2020210514191858.png)
 - New attractor - hill
 - Reinforced by positive feedback
 - Range of inputs exists where sub-threshold hill and peak are both stable : bistable state
@@ -201,7 +201,7 @@
 - Significance: memory of past locations of inputs
 	- Accepted theory of working memory
 - Sustained peaks <=> self-stabilized peaks
-- ![[Pasted image 20210515100819.png]]
+- ![Pasted image 20210515100819.png](Pasted%20image%2020210515100819.png)
 	- Left - monostable state in absence of input
 	- Right - bistable in absence of input (larger h)
 	- Self-stabilized peak actually continuum of attractors as location can be shifted along dimension
@@ -211,7 +211,7 @@
 - Input patterns that match pattern of synaptic connectivity provide strongest excitation
 	- Lumped into $s(x,t)$
 - First peak suppresses others even if input to those locations is stronger/equal later
-- ![[Pasted image 20210515101800.png]]
+- ![Pasted image 20210515101800.png](Pasted%20image%2020210515101800.png)
 	- Form of robust estimation
 - Limitations:	
 	- When input is sufficiently different, decision may be reversed
@@ -227,14 +227,14 @@
 	- Can impact downstream dynamics by amplifying noise
 	- Can alleviate demands on sensory input - they need to only deliver small amounts of input
 		- Bootstrapping fields from sensory-motor domain
-- 	![[Pasted image 20210515103035.png]]
+- 	![Pasted image 20210515103035.png](Pasted%20image%2020210515103035.png)
 
 #### Memory Trace
 - Sustained peaks susceptible to capacity limits and interference
 - Interference when new sensory information competes with existing peaks
 - Learning - longer time scale than peak formation etc.
 - Instance of self-excited peak formation - leaves memory trace that enables re-emergence of same peak
-- ![[Pasted image 20210515103724.png]]
+- ![Pasted image 20210515103724.png](Pasted%20image%2020210515103724.png)
 - Memory trace - second layer of dynamics on a slower time scale
 	- Remembers past locations of peaks
 	- Decays at locations where there are no peaks
@@ -254,7 +254,7 @@
 	- Exact law - Response time ~ log(choice probability)
 		- Arises from exponential time course of activation as it relaxes to the attractor
 	- Prior probability representation based on history
-	- ![[Pasted image 20210515104914.png]]
+	- ![Pasted image 20210515104914.png](Pasted%20image%2020210515104914.png)
 	- Trace becomes mechanism for category formation
 	- Peak not at input location but actually at pre-shaped location
 	- Will not vary with small changes in input location
@@ -268,7 +268,7 @@
 	- Toy placed into A (in sight of infant) first few times, infants allowed to search, look in A first
 	- Next time hidden in B, allowed to search, some look in A still
 	- Stop making mistake around 1 year of age
-- ![[Pasted image 20210515105858.png]]
+- ![Pasted image 20210515105858.png](Pasted%20image%2020210515105858.png)
 	- Green - motor choice
 	- Pink - Placing of object
 	- Violet - Two discrete location
@@ -276,9 +276,9 @@
 	- Blue - Forcing choice by need for toy
 - Large memory trace explains why mistake is made
 - A trial:
-- ![[Pasted image 20210515110235.png]]
+- ![Pasted image 20210515110235.png](Pasted%20image%2020210515110235.png)
 - B trial:
-- ![[Pasted image 20210515110314.png]]
+- ![Pasted image 20210515110314.png](Pasted%20image%2020210515110314.png)
 	- Memory trace input lasts longer than stimulus input
 	- B-peak decays at end of delay => A peak forms again
 	- A-not-B error
@@ -287,7 +287,7 @@
 	- Stronger interaction 
 	- Push through memory instability
 	- Sustained peaks in absence of input possible
-- ![[Pasted image 20210515110707.png]]
+- ![Pasted image 20210515110707.png](Pasted%20image%2020210515110707.png)
 	- B peak sustained - working memory regime
 - Consequence:
 	- Spontaneous errors in original A runs affect A-not-B error
@@ -300,12 +300,12 @@
 - No discrete locations like in previous task => no task input
 - First B trial:
 	- A and B location sufficiently close; peak at B affected by memory trace at A: 
-	- ![[Pasted image 20210515111505.png]]
+	- ![Pasted image 20210515111505.png](Pasted%20image%2020210515111505.png)
 	- Cause of error here different from original task
 	- Drift rather than forgetting as there is no input to keep peak centered at B
 	- Memory trace wider due to drifting peak
 	- A and B far apart; no metric bias:
-	- ![[Pasted image 20210515111951.png]]
+	- ![Pasted image 20210515111951.png](Pasted%20image%2020210515111951.png)
 ---
 
  ## Chapter 3: Embedding DFT in Neurophysiology
@@ -318,7 +318,7 @@
 #### Neural Activation -> Perception, Cognition, Behavior
 - Tuning curve: spike rate vs. stimulus/parameter dimension
 - Gaussian-like tuning curves very common
-- ![[Pasted image 20210517153345.png]]
+- ![Pasted image 20210517153345.png](Pasted%20image%2020210517153345.png)
 - Receptive field: range where the tuning curve differs from baseline
 	- for spatially tuned sensory neurons
 - Receptive field profile: structure of tuning curve in receptive field
@@ -330,7 +330,7 @@
 		- ambiguous (1 spike rate :: 2 values (Gaussian))
 	- Information is carried collectively
 - Population coding: properties of events reflected by distribution of activation over population
-- ![[Pasted image 20210517154021.png]]
+- ![Pasted image 20210517154021.png](Pasted%20image%2020210517154021.png)
 - Distribution over A,B,C unique for each input value
 - Naturally robust to noise due to numbers
 - Experimental verification of population coding: Does it predict behavior more reliably than single neurons? Do all active neurons  impact behavior? :: Yes
@@ -340,7 +340,7 @@
 - A,B,C - Centers of blob that would give rise to saccade vectors A,B,C
 - Do neurons on periphery of blob also matter?
 	- Tested by anesthetizing periphery neurons then providing stimulus
-- ![[Pasted image 20210517154549.png]]
+- ![Pasted image 20210517154549.png](Pasted%20image%2020210517154549.png)
 	- b) A region anesthetized - output (ideally A) unaffected (!!)
 	- c) A region anesthetized - output (ideally B) shifts towards D
 - Hence, overall activation profile more important than strongest ones
@@ -359,7 +359,7 @@
 - More active neurons contribute more etc.
 - Pop. vector compared to actual arm movement
 - If all neurons relevant => more neurons included, more accurate : observed 
-- ![[Pasted image 20210517155952.png]]
+- ![Pasted image 20210517155952.png](Pasted%20image%2020210517155952.png)
 	- a) Ideal tuning curves
 	- b) Vectors of 8 possible movements
 	- c) Vectors weighted by spike rate during movement
@@ -388,12 +388,12 @@
 	- Used as basis for more precise assessment
 	- Smoothed with Gaussian filter
 	- Center of mass of output used as center for Gaussian tuning curve of fixed width
-	- ![[Pasted image 20210517183818.png]]
+	- ![Pasted image 20210517183818.png](Pasted%20image%2020210517183818.png)
 	- Exact shape of receptive field lost in this process
 - DPA now constructed using this set of Gaussian tuning curves
 	- Normalize firing rate
 	- Tuning curve weighted by normalized firing rate and summed
-	- ![[Pasted image 20210517184137.png]]
+	- ![Pasted image 20210517184137.png](Pasted%20image%2020210517184137.png)
 	- Green - normalized TCs of neurons
 	- Black - firing rate from one experimental condition
 	- Blue - weighted TCs
@@ -403,9 +403,9 @@
 > $\tilde{r}_i(a,t)=\frac{r_i(a,t)-b_i}{r_{m_i}-b_i}$
 > $u(x,y)=\frac{\sum_ir_i(a,t)f_i(x,y)}{\sum_if_i(x,y)}$
 - Activation value for each position even if no neuron's center at that location
-- ![[Pasted image 20210517185143.png]]
+- ![Pasted image 20210517185143.png](Pasted%20image%2020210517185143.png)
 	- a) Stimuli location b) Receptive fields c) Constructed DPA d) DPA from one stimulus 
-- ![[Pasted image 20210517185931.png]]
+- ![Pasted image 20210517185931.png](Pasted%20image%2020210517185931.png)
 	- DPA from stimuli at different positions 
 	- Activation peaks in DPA widened over time contrary to belief that response gets sharpened over time 
 - Final normalization step
@@ -421,7 +421,7 @@
 	- Direction indicated by red LEDs
 	- Priming by green LEDs on possible upcoming locations
 	- Varying levels of certainty
-	- ![[Pasted image 20210517191630.png]]
+	- ![Pasted image 20210517191630.png](Pasted%20image%2020210517191630.png)
 	- PS: Preparatory signal, RS: Response signal, MVT: Movement onset, PP: Preparatory period, RT: Reaction time
 - Feature space: Direction of arm movement
 - Tuning curves determined directly from neural responses
@@ -438,7 +438,7 @@
 - DPA only provides values for the 6 directions, not a continuous field
 - Less smooth than Gaussian method from earlier, but actually more accurate
 - Constructed DPAs show single peak for target locations => great
-- ![[Pasted image 20210517193041.png]]
+- ![Pasted image 20210517193041.png](Pasted%20image%2020210517193041.png)
 	- Priming signal certainty affects initial peak
 	- More uncertainty => weaker activation
 	- Peak formation after target signal
@@ -455,7 +455,7 @@
 #### Lateral Interactions in Primary Visual Cortex
 - Sustained activation <-> interaction within population
 - Response to elementary vs. complex stimuli
-- ![[Pasted image 20210522123235.png]]
+- ![Pasted image 20210522123235.png](Pasted%20image%2020210522123235.png)
 	- b) Constructed DPA for complex stimuli (solid) vs. superposition of DPAs for elementary stimuli (dashed)
 		- Repulsion of peaks in distant case
 	- c) Calculated time course of activation
@@ -463,7 +463,7 @@
 - Deviation from superposition => existence of interactions
 	- Composite almost always weaker than superposition of elementary
 	- During early part of stimulation for nearby case, activation higher in composite case though; also died down faster
-- ![[Pasted image 20210522123819.png]]
+- ![Pasted image 20210522123819.png](Pasted%20image%2020210522123819.png)
 
 #### Modeling Interaction Effects with DFs
 - Lateral interaction -> strengthen similar neurons
@@ -480,7 +480,7 @@
 	- A neuron can only have one effect on another single neuron at all times
 	- Inhibition has a delay => initial overshoot of excitation
 - Two-layer field structure:
-	- ![[Pasted image 20210522130447.png]]
+	- ![Pasted image 20210522130447.png](Pasted%20image%2020210522130447.png)
 	- Only excitatory receives external input
 	- topological projections
 	- no lateral interaction within inhibitory layer
@@ -529,33 +529,33 @@ Can stability be retained as a property of neural processing while still represe
 - Sensors, effectors, body linking the two mechanically, nervous system linking to two though activation variables
 - Situated in structured environment
 - Taxis vehicle
-	- ![[Pasted image 20210602084435.png]]
+	- ![Pasted image 20210602084435.png](Pasted%20image%2020210602084435.png)
 	- Activation plays limited role, only a transducer
 	- Moves towards stimulus by using difference in intensity as control variables
 - Goal: formalize dynamics of this vehicle
 	- Function emerges from behavioral dynamics
 	- Stability determines the functions that emerge
-- ![[Pasted image 20210602091914.png]]
+- ![Pasted image 20210602091914.png](Pasted%20image%2020210602091914.png)
 - Compose the functions relating intensity difference, activation, turning rate to directly obtain difference in turning rates as function of heading direction
 - Turning rate is time derivative of heading
 	- $\dot{\phi}=f(\phi)$
 	- Behavioral dynamics
 		- Abstract concept - removes details of mechanisms of sensory and effector systems
 - Attractor state:
-	- ![[Pasted image 20210602092500.png]]
+	- ![Pasted image 20210602092500.png](Pasted%20image%2020210602092500.png)
 	- Only relative orientation matters, absolute coordinate system doesn't
 - Does not account for average turning rate which causes forward motion
 	- Changing intensity profile leads to changing behavioral dynamics
 - Bimodal system:
-	- ![[Pasted image 20210602094213.png]]
+	- ![Pasted image 20210602094213.png](Pasted%20image%2020210602094213.png)
 	- Bistability leads to a selection decision
 	- Self-stabilization of decision
 	- Sensory input no longer uniquely determines behavior, depends on internal state also
 	- Similar to bistability in neural dynamics
 - Sources close together:
-	- ![[Pasted image 20210602094545.png]]
+	- ![Pasted image 20210602094545.png](Pasted%20image%2020210602094545.png)
 - Bifurcation diagram: Pitchfork
-	- ![[Pasted image 20210602094715.png]]
+	- ![Pasted image 20210602094715.png](Pasted%20image%2020210602094715.png)
 - DIfference between behavioral dynamics and cybernetics
 	- In cybernetics, the input signal is an error/deviation from a goal or 'set point'
 	- Similar to classical control theory, but unclear how to analyze in case of multiple sources
@@ -564,10 +564,10 @@ Can stability be retained as a property of neural processing while still represe
 ###  Linking DFs to Behavioral Dynamics
 - Additional decisions to withstand distraction -> inner state cairables
 - Phonotaxis vehicle:
-	- ![[Pasted image 20210607114519.png]]
+	- ![Pasted image 20210607114519.png](Pasted%20image%2020210607114519.png)
 	- 5 mics 45 dgrees apart
 	- 60 degree sensitivty cone per mic
-	- ![[Pasted image 20210607114634.png]]
+	- ![Pasted image 20210607114634.png](Pasted%20image%2020210607114634.png)
 		- Top - Weighted sum of tuning curves
 		- Middle - Weighted tuning curves
 		- Bottom - Sensitivity cones
@@ -583,15 +583,15 @@ Can stability be retained as a property of neural processing while still represe
 	-	Solve by integrating behavioral dynamics equation
 	-	No error correction in world frame -> doesn't matter as it is canceled by the motor command projection
 -	Neural dynamics driven directly by sensors:
-	-	![[Pasted image 20210607120349.png]]
+	-	![Pasted image 20210607120349.png](Pasted%20image%2020210607120349.png)
 	-	Volume gradually increased; detection decision shown
 	-	Detection instability at critical source strength
 -	Selection in presence of 2 sources
-	-	![[Pasted image 20210607121048.png]]
+	-	![Pasted image 20210607121048.png](Pasted%20image%2020210607121048.png)
 -	1 source with reflecting surface on flank (robust estimation)
-	-	![[Pasted image 20210607121201.png]]
+	-	![Pasted image 20210607121201.png](Pasted%20image%2020210607121201.png)
 -	Tracking of moving source
-	-	![[Pasted image 20210607121227.png]]
+	-	![Pasted image 20210607121227.png](Pasted%20image%2020210607121227.png)
 -	To generate source-seeking motion
 	-	induce attractor ins dyanmics of headin direction at location of snesory peak
 -	First shot formalism: treat peak as mean of sensory distribution (with sigmoid applied to it)
@@ -602,7 +602,7 @@ Can stability be retained as a property of neural processing while still represe
 	- use negative slope of dynamic contribution that erects attractor at peak location proportional to strength of peak
 	- $\dot{\phi}=-[\int g(u(\psi))d\psi](\phi-\psi_{peak})$
 	- $g$ - sigmoid
-	- ![[Pasted image 20210607123203.png]]
+	- ![Pasted image 20210607123203.png](Pasted%20image%2020210607123203.png)
 	- Substituting the expression of mean of $\psi$, normalized:
 	- $\dot{\phi}=-[\int g(u(\psi))\phi d\psi-\int g(u(\psi))\psi d\psi]$
 	- Normalization cancels out, no divide-by-zero problems
@@ -610,14 +610,14 @@ Can stability be retained as a property of neural processing while still represe
 	- Vote $-[\phi-\psi]$ by each field location with strength proportional to $g(u(\psi))$
 	- Range limiting factor may be used, cf. [[Dynamic Field Theory#Obstacle Avoidance]]
 - Two sources -> decision instability, stabilization by neural field
-- ![[Pasted image 20210607123910.png]]
+- ![Pasted image 20210607123910.png](Pasted%20image%2020210607123910.png)
 	- Closer to left originally
-- ![[Pasted image 20210607123937.png]]
+- ![Pasted image 20210607123937.png](Pasted%20image%2020210607123937.png)
 	- Closer to right originally
 - NOTE: Only vehicle coordinates matter here due to the nature of the equations
 	- Errors in $\phi$ and $\psi$ cancel out
 - Limb movement based on motor plans
-	- ![[Pasted image 20210607124157.png]]
+	- ![Pasted image 20210607124157.png](Pasted%20image%2020210607124157.png)
 	- Muscles produce exactly enough torque to compensate for external weight
 	- Reflex loops stabilize torque output
 	- Movement -> shifting equilibrium point by the descending command <-> peaks setting attractors
@@ -631,7 +631,7 @@ Can stability be retained as a property of neural processing while still represe
 	- System is always in or near attractor
 	- Direction of obstacle $\psi_{obst}$ generates a repelling 'forcelet'
 		- $\dot{\phi}=...+(\phi-\psi_{obst})exp[-\frac{(\phi-\psi_{obst})^2}{2\Delta^2}]$
-		- ![[Pasted image 20210607122213.png]]
+		- ![Pasted image 20210607122213.png](Pasted%20image%2020210607122213.png)
 		- Limited range
 		- Two half-attractors
 - Describes human obstacle avoidance quite well too
@@ -641,21 +641,21 @@ Can stability be retained as a property of neural processing while still represe
 -  Neural dynamics to control real body acting in the world
 -  Video input
 -  Color matching filter -> only one color activates
--  ![[Pasted image 20210607144222.png]]
+-  ![Pasted image 20210607144222.png](Pasted%20image%2020210607144222.png)
 -  Same motor organization as phonotaxis vehicle
 	-  Seeks yellow sources
 -  Added memory trace cf. [[Dynamic Field Theory#Memory Trace]]
--  ![[Pasted image 20210607144420.png]]
+-  ![Pasted image 20210607144420.png](Pasted%20image%2020210607144420.png)
 -  Activation field and memory trace evolution:
-	-  ![[Pasted image 20210607144803.png]]
+	-  ![Pasted image 20210607144803.png](Pasted%20image%2020210607144803.png)
 	-  Boost at A due to specific cue, causes slight favoring later => peak
 	-  Activation field at this time:
-	-  ![[Pasted image 20210607144932.png]]
+	-  ![Pasted image 20210607144932.png](Pasted%20image%2020210607144932.png)
 -  By the first B trial, significant memory of A => A-not-B error
 -  Explanation for [[Dynamic Field Theory#Illustration DFT Model of Perseverative Reaching]]
 -  Further experiments:
 -  Obstacles in path to yellow target
-	-  ![[Pasted image 20210607145347.png]]
+	-  ![Pasted image 20210607145347.png](Pasted%20image%2020210607145347.png)
 	-  Left - without memory trace; Right - with memory trace
 	-  'Young' (dotted line) robot makes error
 		-  unable to sustain peaks of activation
@@ -701,7 +701,7 @@ Can stability be retained as a property of neural processing while still represe
 - $x\in F$ - multidimensional field
 - $k(x,y)$ - difference of Gaussians (exc and inh)
 - $s(x,y)$ - Gaussian centered at input location
-- ![[Pasted image 20210609123110.png]]
+- ![Pasted image 20210609123110.png](Pasted%20image%2020210609123110.png)
 
 - Similar behavior to 1D case (mostly)
 	- short range exc, long range inh, self stabilized peaks etc.
@@ -710,7 +710,7 @@ Can stability be retained as a property of neural processing while still represe
 
 ### Real-time Integration and Selection in DFs
 - 1 space dim + 1 hue dim
-- ![[Pasted image 20210609124314.png]]
+- ![Pasted image 20210609124314.png](Pasted%20image%2020210609124314.png)
 - Early visual cortex -> no global competition
 - Read-out -> integrate over the disregarded dimension + convolve with Gaussian kernel
 	- Input for 1D fields in figure
@@ -719,12 +719,12 @@ Can stability be retained as a property of neural processing while still represe
 - How to get integration adn selection 
 	- easy fix - force fields to have only one peaks
 	- can select one at a time to avoid binding errors
-- ![[Pasted image 20210609130118.png]]
+- ![Pasted image 20210609130118.png](Pasted%20image%2020210609130118.png)
 	- Projection from 1D -> 2D field
-- ![[Pasted image 20210609130452.png]]
+- ![Pasted image 20210609130452.png](Pasted%20image%2020210609130452.png)
 	- a - stimulation of 2D field, projects forward
 	- b - global boost of 2D from 1D to form peak
-- ![[Pasted image 20210609130717.png]]
+- ![Pasted image 20210609130717.png](Pasted%20image%2020210609130717.png)
 	- Local top-down influence
 	- "Look for blue item" by boosting
 	- Strengthens corresponding peak
@@ -745,7 +745,7 @@ Can stability be retained as a property of neural processing while still represe
 - Two stream hypothesis
 	- 'where' and 'what' streams of processing
 	- spatial location vs. image features
-- ![[Pasted image 20210610110835.png]]
+- ![Pasted image 20210610110835.png](Pasted%20image%2020210610110835.png)
 	-  c, e - attention fields
 	-  d - color memory field
 	-  f - saccade motor field
@@ -757,17 +757,17 @@ Can stability be retained as a property of neural processing while still represe
 	-  Neural integrator that integrates entire saccade field as inhibitor, to end saccade
 
 ### VWM  and Saccade Orienting in Remote Distractor
-- ![[Pasted image 20210610112140.png]]
+- ![Pasted image 20210610112140.png](Pasted%20image%2020210610112140.png)
 	- Memorize color (blue box)
 	- Perform saccade to red spot (bigger, farther), avoid green spot (smaller, closer distractor)
 	- Test memory of color by identifying box
 	- Some trials had different saccade dots with color matches as shown on right
-- ![[Pasted image 20210610112528.png]]
+- ![Pasted image 20210610112528.png](Pasted%20image%2020210610112528.png)
 	- Even though distractor was always on wrong side, errors still made when color matched
 	- When distractor color matched, ~50% error
 	- When target color matched, ~0% error
 - Simulations of this experiment
-	- ![[Pasted image 20210610113207.png]]
+	- ![Pasted image 20210610113207.png](Pasted%20image%2020210610113207.png)
 	- Distractor color matching strengthens extant peak in color memory field
 	- Causes back projection to sensory field and then spatial field, that makes it peak at the distractor position
 	- Wrong saccade
@@ -779,7 +779,7 @@ Can stability be retained as a property of neural processing while still represe
 - Brain has separate populations for each dimensions -> less computationally expensive
 - But then how do we see objects as wholes instead of separate features -> binding problem
 - Expanded biased competition model -> add more fields and achieve same functionality without dramatic increase in demands
-- ![[Pasted image 20210610115021.png]]
+- ![Pasted image 20210610115021.png](Pasted%20image%2020210610115021.png)
 	- top b, c, d - color field
 	- bottom b, c, d - shape field
 	- b - visual sensory fields
@@ -804,7 +804,7 @@ Can stability be retained as a property of neural processing while still represe
 	- Cue item presented at start, having the required feature (color) -> peak  in memory field
 	- Read-out field -> maintain single peak (spatial attention)
 - Simulation of model:
-	- ![[Pasted image 20210610122538.png]]
+	- ![Pasted image 20210610122538.png](Pasted%20image%2020210610122538.png)
 	- a - cue item presented (not shown in figure)
 	- b - color memory peak at one value corresponding to cue item -> ridge in S-C field -> peak in spatial attention field
 	- c - S-S peak of target item prevails
@@ -827,14 +827,14 @@ Can stability be retained as a property of neural processing while still represe
 
 ## Chapter 6: Integrating Perception and Working Memory in a Three-Layer Dynamic Field Model
 - Spatial recall and change detection
-- ![[Pasted image 20210611135831.png]]
+- ![Pasted image 20210611135831.png](Pasted%20image%2020210611135831.png)
 - Common feature-  maintain stable state
 	- spatial reference frame and comparison
 - Integration of perception and working memory
 
 ### integrating perceptual and memory processes in 3-layer NF architecture
 - 3-layer field
-- ![[Pasted image 20210611140501.png]]
+- ![Pasted image 20210611140501.png](Pasted%20image%2020210611140501.png)
 - contrast field $CON(u)$
 - working memory field $WM(w)$
 - inh field $Inhib(v)$
@@ -848,7 +848,7 @@ Can stability be retained as a property of neural processing while still represe
 - Complex pattern of drift and variability
 
 ### Visual Change Detection
-- ![[Pasted image 20210611141709.png]]
+- ![Pasted image 20210611141709.png](Pasted%20image%2020210611141709.png)
 	- left - no-change test set
 	- right - change test set
 	- encoding, maintenance over delay, generation of response, decision response
@@ -861,7 +861,7 @@ Can stability be retained as a property of neural processing while still represe
 
 #### Encoding
 - Rate of encoding in WM increases as no. of items
-- ![[Pasted image 20210611154558.png]]
+- ![Pasted image 20210611154558.png](Pasted%20image%2020210611154558.png)
 	- set size
 
 #### Maintenance
@@ -871,17 +871,17 @@ Can stability be retained as a property of neural processing while still represe
 	- toward axis -> better discrimination
 	- near axis -> enhanced discrimination
 	- salience of axis -> more enhancement
-- ![[Pasted image 20210611155018.png]]
+- ![Pasted image 20210611155018.png](Pasted%20image%2020210611155018.png)
 	- Mistake when second stimulus presented away from axis (in direction of drift)
 - Other two predictions also verified in experiments
 - Peak repulsion -> strong inhibition -> similar items held nearby recalled to be more different than they really are
-- ![[Pasted image 20210611155454.png]]
+- ![Pasted image 20210611155454.png](Pasted%20image%2020210611155454.png)
 	- Color wheel test -> two similar colors recalled in opposite directions
 
 #### Comparison
 - Change detection should be enhanced with multiple similar items vs. few unique items
 	- Confirmed in experiment
-	- ![[Pasted image 20210611160144.png]]
+	- ![Pasted image 20210611160144.png](Pasted%20image%2020210611160144.png)
 - Capacity limited model
 	- Inhibition overwhelms beyond a point
 
@@ -909,7 +909,7 @@ Can stability be retained as a property of neural processing while still represe
 - Reference Frames
 
 ### Role of Reference Frames
-- ![[Pasted image 20210621150309.png]]
+- ![Pasted image 20210621150309.png](Pasted%20image%2020210621150309.png)
 - Representation by population in one frame is consistent -> inconsistent in others moved relative to this
 - Reference frame of neural population -> independent of anatomical (retinotopic) organization of individual neurons
 
@@ -917,27 +917,27 @@ Can stability be retained as a property of neural processing while still represe
 - Variable shift parameterized by current position of eyes
 - Gain-modulated neurons
 - Fixation task while visual stimuli presented
-	- ![[Pasted image 20210621163439.png]]
+	- ![Pasted image 20210621163439.png](Pasted%20image%2020210621163439.png)
 - Firing pattern consistent with retinocentric representation
 - Overall strength depended on fixation point (gaze), though
-- ![[Pasted image 20210621163556.png]]
+- ![Pasted image 20210621163556.png](Pasted%20image%2020210621163556.png)
 	- Typically linear dependence on gaze direction
 
 ### Reference Frame Transformations - DF Model
 - retinocentric -> body centered 
 - need to perform angular addition with neural population
-- ![[Pasted image 20210622155040.png]]
+- ![Pasted image 20210622155040.png](Pasted%20image%2020210622155040.png)
 	- all points on diagonal correspond to same real-world point
 - retinal position + gaze direction -> body-centered location
 
 ### Extensions of the Basic Mechanism
-- ![[Pasted image 20210622155051.png]]
+- ![Pasted image 20210622155051.png](Pasted%20image%2020210622155051.png)
 - Need support for multiple peaks
 - Reversal of projection direction -> memory of visual location
-- ![[Pasted image 20210622155338.png]]
+- ![Pasted image 20210622155338.png](Pasted%20image%2020210622155338.png)
 - Reference Frame Alignment problem:
-	- ![[Pasted image 20210622155445.png]]
-	- ![[Pasted image 20210622155604.png]]
+	- ![Pasted image 20210622155445.png](Pasted%20image%2020210622155445.png)
+	- ![Pasted image 20210622155604.png](Pasted%20image%2020210622155604.png)
 	- Strongest input location will determine correct shift
 	- Symmetric arrangement of boxes -> impossible to determine correct orientation
 		- Single gaze peak makes sense
@@ -945,7 +945,7 @@ Can stability be retained as a property of neural processing while still represe
 ### Multidirectional Transformations
 - Two-way connections between all 3 fields
 - Strength of activation determines direction of signal flow
-- ![[Pasted image 20210622161222.png]]
+- ![Pasted image 20210622161222.png](Pasted%20image%2020210622161222.png)
 - Essentially one large dynamical system
 
 ---

@@ -126,4 +126,3 @@
 - Sellers who buy small sellers and thier products
 - Third party sales growing faster than amazon sales
 - Kinda like big companies acquiring small ones
-- 

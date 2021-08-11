@@ -22,4 +22,3 @@
 
 ## Red Telephone Boxes
 - Repurposed as defibrillators
-- 
