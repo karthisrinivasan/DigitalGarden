@@ -188,9 +188,9 @@ So, Krishna takes on his female avatar of Mohini and weds Aravan, spending a nig
   
   GM: Interstella 5555, Daft Punk, Discovery
 
-![[Pasted image 20210508222726.png]]
+![Pasted image 20210508222726.png](Pasted%20image%2020210508222726.png)
 
-![[Pasted image 20210508222734.png]]
+![Pasted image 20210508222734.png](Pasted%20image%2020210508222734.png)
 
 GM: American Flag reversed on Army uniforms
 
