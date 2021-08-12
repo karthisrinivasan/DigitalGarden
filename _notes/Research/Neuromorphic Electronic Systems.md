@@ -21,14 +21,14 @@
 	- difference in dielectric constant between fat and aqueous solution
 	- bandgap in transistors
 - current is exponential function of barrier energy in nervous tissue
-- ![[Pasted image 20210526104559.png]]
+- ![Pasted image 20210526104559.png](Pasted%20image%2020210526104559.png)
 - computations implemented using this exp. relation?
 - analog memory - charge storage
 
 ### Retinal Computation
 - Voltage at every point in network is spatially weighted average of photoreceptor inputs
 - Each photoreceptor - voltage input to drive node of resistive network
-- ![[Pasted image 20210526105129.png]]
+- ![Pasted image 20210526105129.png](Pasted%20image%2020210526105129.png)
 	- Pixel schematic
 	- conductance of OTA, resistor value - space constant of the network - effective averaging area
 	- provide automatic gain control
@@ -47,7 +47,7 @@
 - Biological retina uses adaptive mechanisms to compensate
 - Leakage conductance present during UV illumination - mechanism for adapting charge on floating gate
 - Feedback connection from resistor network to photoreceptor
-- ![[Pasted image 20210526115816.png]]
+- ![Pasted image 20210526115816.png](Pasted%20image%2020210526115816.png)
 	- Correct for output variations with UV light
 - Small differences between center intensity and surround intensity converted to large output voltages
 - Preserves large dynamic range
@@ -55,7 +55,7 @@
 - The feedback is thus negative, driving all output nodes toward the same potential.
 
 ### Adaptation and Learning
-- ![[Pasted image 20210526120951.png]]
+- ![Pasted image 20210526120951.png](Pasted%20image%2020210526120951.png)
 - Random walk in case of error
 - Truly random events get canceled out
 - Systematic differences get learned and adapted to

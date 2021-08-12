@@ -3,7 +3,7 @@
 
 - Spatial distinctions on scales much smaller than resolution of vision
 - Detection of misaligned edge much smaller than receptor array spacing
-	- ![[Pasted image 20210601182841.png]]
+	- ![Pasted image 20210601182841.png](Pasted%20image%2020210601182841.png)
 - Sub-pixel resolution
 - Due to graded (analog) intensity response but single spatial value
 	- Similar to how mean of histogram can be calculated to smaller than a bin-width

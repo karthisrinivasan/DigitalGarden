@@ -27,18 +27,18 @@ Other primitives
 	- Population-based hierarchical connectivity
 
 ### Mesh Operation
-- ![[Pasted image 20210607163634.png]]
+- ![Pasted image 20210607163634.png](Pasted%20image%2020210607163634.png)
 
 ### Network Connectivity
-- ![[Pasted image 20210607164008.png]]
+- ![Pasted image 20210607164008.png](Pasted%20image%2020210607164008.png)
 - Directed multigraph structure
 
 ## Design Implementation
-- ![[Pasted image 20210607182129.png]]
+- ![Pasted image 20210607182129.png](Pasted%20image%2020210607182129.png)
 
 ### Asynchronous Design
-- ![[Pasted image 20210607182628.png]]
+- ![Pasted image 20210607182628.png](Pasted%20image%2020210607182628.png)
 
 ## Results
-- ![[Pasted image 20210607182853.png]]
-- ![[Pasted image 20210607182953.png]]
+- ![Pasted image 20210607182853.png](Pasted%20image%2020210607182853.png)
+- ![Pasted image 20210607182953.png](Pasted%20image%2020210607182953.png)

@@ -33,4 +33,3 @@
 ## Cortical Column
 - Vertical arrays
 - Densely connected vertically, sparsely connected horizontally
-- 

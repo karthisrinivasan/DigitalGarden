@@ -19,19 +19,19 @@
 - Point neuron model
 	- All inputs effectively at soma
 	- Pure timing code
-	- ![[Pasted image 20210605193252.png]]
+	- ![Pasted image 20210605193252.png](Pasted%20image%2020210605193252.png)
 - Topological Virtualization
 	- 3D -> 2D mapping can be arbitrary
 - SpiNNaker core -> ARM9 processor
 	- 1,000 neurons
 
 ## Architecture Overview
-- ![[Pasted image 20210605194945.png]]
+- ![Pasted image 20210605194945.png](Pasted%20image%2020210605194945.png)
 	- SpiNNaker node
 - Toroidal lattice
-	- ![[Pasted image 20210605195017.png]]
+	- ![Pasted image 20210605195017.png](Pasted%20image%2020210605195017.png)
 - SpiNNaker die
-	- ![[Pasted image 20210605195049.png]]
+	- ![Pasted image 20210605195049.png](Pasted%20image%2020210605195049.png)
 	- 18 subsystems (ARM cores)
 	- 1 chosen to perform system management tasks -> Monitor Processor
 - Routing
@@ -40,19 +40,19 @@
 ## System Components
 
 ### ARM968
-- ![[Pasted image 20210605201931.png]]
+- ![Pasted image 20210605201931.png](Pasted%20image%2020210605201931.png)
 - core-local memories connected to processor
 
 ### Vectored Interrupt Controller (VIC)
 - Enable/disable interrupts from various sources
 - Wake processor from sleep
 
-![[Pasted image 20210605202135.png]]
+![Pasted image 20210605202135.png](Pasted%20image%2020210605202135.png)
 
 ## Memory Spaces
 - Dedicated memory for each processor
-- ![[Pasted image 20210605202527.png]]
-- ![[Pasted image 20210605202549.png]]
+- ![Pasted image 20210605202527.png](Pasted%20image%2020210605202527.png)
+- ![Pasted image 20210605202549.png](Pasted%20image%2020210605202549.png)
 
 ## Routing Subsystem
 - Asynchronous interconnect infrastructure
@@ -64,7 +64,7 @@
 	- Fixed route
 - ~100ns latency
 
-![[Pasted image 20210606090338.png]]
+![Pasted image 20210606090338.png](Pasted%20image%2020210606090338.png)
 
 #### NN Packets
 - Launched from any core
@@ -85,12 +85,12 @@
 ### Initializing the Router
 - Each node connected to 6 neighbors, internal port addresses of each link known
 - Define routing tables
-- ![[Pasted image 20210606091250.png]]
+- ![Pasted image 20210606091250.png](Pasted%20image%2020210606091250.png)
 	- Want to go to 'x', send through 'y'
-- ![[Pasted image 20210606091413.png]]
+- ![Pasted image 20210606091413.png](Pasted%20image%2020210606091413.png)
 
 ### Router Internals
-- ![[Pasted image 20210606091558.png]]
+- ![Pasted image 20210606091558.png](Pasted%20image%2020210606091558.png)
 - Source key input to CAM
 - Drives lookup RAM
 - Packet duplication and routing
@@ -109,7 +109,7 @@
 
 #### Communication NoC
 - Handle on=chip processor-memory and processor-peripheral communication
-- ![[Pasted image 20210606092234.png]]
+- ![Pasted image 20210606092234.png](Pasted%20image%2020210606092234.png)
 	- Merges various packet sources into one stream
 - Transforms data into DI NRZ protocol to drive output ports
 

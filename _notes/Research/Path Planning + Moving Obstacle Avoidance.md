@@ -22,7 +22,7 @@
 	- $V_old$ if passable
 	- 0 otherwise
 - Shortest time can be found by checking the smallest time T at which goal neuron fires
-- ![[Pasted image 20210521102604.png]]
+- ![Pasted image 20210521102604.png](Pasted%20image%2020210521102604.png)
 - For backward search of shortest path:
 	- Stimulate goal neuron at t=0 and continue till start neuron fires (backward wave)
 	- Sequence of firing neurons would give shortest path

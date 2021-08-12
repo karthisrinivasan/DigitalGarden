@@ -9,14 +9,14 @@
 - Denser packing per crossbar
 
 ### Proposed Technique
-- ![[Pasted image 20210529114749.png]]
+- ![Pasted image 20210529114749.png](Pasted%20image%2020210529114749.png)
 - Pruning - elimination of near-zero weights
 - Unrolling - limit number of presynaptic connections
 - Weight normalization - ensures quality of decomposed model
 
 #### Spatial Decomposition using Model Unrolling
 - 1 m-input neuron -> (m-1) 2-input neurons
-- ![[Pasted image 20210529115055.png]]
+- ![Pasted image 20210529115055.png](Pasted%20image%2020210529115055.png)
 - $y_0=f(u_{m-1})$
 - $u_i:$
 	- $f(n_1.w_1+n_2.w_2) for$ $i=1$
@@ -40,7 +40,7 @@
 
 #### Motivating Example
 - Mapping of functions onto 4x4 crossbar
-- ![[Pasted image 20210529120928.png]]
+- ![Pasted image 20210529120928.png](Pasted%20image%2020210529120928.png)
 - Last term of $y_2$ cannot be mapped, normally
 - Unrolling enables mapping
 - Fewer crossbars, no loss in model quality, increase in crossbar utilization
@@ -48,12 +48,12 @@
 ### Results
 
 - ML Applications used:
-	- ![[Pasted image 20210529121317.png]]
+	- ![Pasted image 20210529121317.png](Pasted%20image%2020210529121317.png)
 - Evaluated on [[DYNAP-SE]] (128x128 crossbar per tile):
-	- ![[Pasted image 20210529121350.png]]
+	- ![Pasted image 20210529121350.png](Pasted%20image%2020210529121350.png)
 
 - Comparison of Hardware Requirement
-	- ![[Pasted image 20210529121422.png]]
+	- ![Pasted image 20210529121422.png](Pasted%20image%2020210529121422.png)
 	- 60% fewer crossbars on average
 	- 10x fewer crossbars in EdgeDet even though EdgeDet has no neurons with more than 128 fanin
 		- Due to many having close to 128
@@ -63,19 +63,19 @@
 
 - Comparison of Crossbar Utilization
 	- Neurons: 53% vs. 9% average utilization
-	- ![[Pasted image 20210529121856.png]]
+	- ![Pasted image 20210529121856.png](Pasted%20image%2020210529121856.png)
 	- Synapses: 62% vs. 25% average utilization
-	- ![[Pasted image 20210529121913.png]]
+	- ![Pasted image 20210529121913.png](Pasted%20image%2020210529121913.png)
 
 - Comparison of Wasted Energy
 	- Incorporates neurons and synapses that are not utilized during execution
 	- 62% lower energy usage on average
-	- ![[Pasted image 20210529122143.png]]
+	- ![Pasted image 20210529122143.png](Pasted%20image%2020210529122143.png)
 
 - Comparison of Model Quality
 	- Same in some cases due to some models having strictly <128 synapses/neuron
 	- 3% better on average for networks that don't satisfy this constraint
-	- ![[Pasted image 20210529122317.png]]
+	- ![Pasted image 20210529122317.png](Pasted%20image%2020210529122317.png)
 
 ### Discussion
 - Negative impact on accuracy and energy

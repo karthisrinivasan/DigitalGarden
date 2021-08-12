@@ -48,10 +48,10 @@
 - Top-down (internal guidance - mission driven) and bottom-up attention (externally driven)
 - Predictive coding - updates internal representation of the environment
 	- Attention required only when prediction error occurs
-- ![[Pasted image 20210514130033.png]]
+- ![Pasted image 20210514130033.png](Pasted%20image%2020210514130033.png)
 - Need to enhance understanding of neurosensory systems in flying creatures
 
-![[Pasted image 20210514130246.png]]
+![Pasted image 20210514130246.png](Pasted%20image%2020210514130246.png)
 
 ## Recommendations
 1. Develop event-based sensor hardware and algorithms to support navigation and collision avoidance

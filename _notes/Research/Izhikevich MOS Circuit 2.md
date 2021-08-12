@@ -7,15 +7,15 @@
 - cf. [[Izhikevich Model]]
 
 ## Designed Circuit
-- ![[Pasted image 20210621110918.png]]
+- ![Pasted image 20210621110918.png](Pasted%20image%2020210621110918.png)
 
 ### Reproducing nullclines
-- ![[Pasted image 20210621111047.png]]
+- ![Pasted image 20210621111047.png](Pasted%20image%2020210621111047.png)
 	- v nullcline
 	- bump-antibump circuit
-- ![[Pasted image 20210621111059.png]]
+- ![Pasted image 20210621111059.png](Pasted%20image%2020210621111059.png)
 	- u nullcline
-- ![[Pasted image 20210621111534.png]]
+- ![Pasted image 20210621111534.png](Pasted%20image%2020210621111534.png)
 	- dynamics of u
 	- current integrator
 	- subthreshold
@@ -23,10 +23,10 @@
 	- $I_{\tau}$ <-> a (Izhikevich model)
 
 ### Reset Circuit
-- ![[Pasted image 20210621113612.png]]
+- ![Pasted image 20210621113612.png](Pasted%20image%2020210621113612.png)
 
 ### U+D Circuit
-- ![[Pasted image 20210621113626.png]]
+- ![Pasted image 20210621113626.png](Pasted%20image%2020210621113626.png)
 - Iout1 / 2 <-> +/- d
 
 ## Results

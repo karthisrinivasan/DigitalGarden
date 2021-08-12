@@ -9,15 +9,15 @@
 
 ## Materials and Methods
 ### Processor Architecture
-- ![[Pasted image 20210606183008.png]]
+- ![Pasted image 20210606183008.png](Pasted%20image%2020210606183008.png)
 - 256 neurons
 - 256x256 long-term learning synapses
 - 256x256 programmable synapses
 - 256x2 virtual synapses for modeling shared synaptic weights
 - [[AdExp I&F]] neurons
 - bistable weights with LTP and LTD
-- ![[Pasted image 20210606183320.png]]
-- ![[Pasted image 20210606183336.png]]
+- ![Pasted image 20210606183320.png](Pasted%20image%2020210606183320.png)
+- ![Pasted image 20210606183336.png](Pasted%20image%2020210606183336.png)
 - Programmable switch matrix controls connectivity
 
 #### Synapse Temporal Dynamics
@@ -47,32 +47,32 @@
 
 ### Processor Building Blocks
 #### Silicon Neuron: [[AdExp I&F]]
-- ![[Pasted image 20210606191518.png]]
+- ![Pasted image 20210606191518.png](Pasted%20image%2020210606191518.png)
 	- ! -> set by on-chip bias generator
 - Possible behaviors
-	- ![[Pasted image 20210606191706.png]]
+	- ![Pasted image 20210606191706.png](Pasted%20image%2020210606191706.png)
 	- Different reset voltages, different refractory period
 	- Frequency adaptive behavior, Bursting behavior
 - Firing-input injection curve
-	- ![[Pasted image 20210606191823.png]]
+	- ![Pasted image 20210606191823.png](Pasted%20image%2020210606191823.png)
 	- Good mismatch performance -> soma FETs larger
 - Post-synaptic plasticity circuits
-	- ![[Pasted image 20210606192129.png]]
+	- ![Pasted image 20210606192129.png](Pasted%20image%2020210606192129.png)
 
 #### Long-Term Plasticity Synapse
-- ![[Pasted image 20210606192349.png]]
+- ![Pasted image 20210606192349.png](Pasted%20image%2020210606192349.png)
 	- A - pulse generator for AER
 	- B - timing diagram for enabling broadcast and recurrent activation
 	- C - Weight update and current generator blocks
-- ![[Pasted image 20210606192526.png]]
+- ![Pasted image 20210606192526.png](Pasted%20image%2020210606192526.png)
 
 #### Short-Term Plasticity Synapse
 - 2 bits -> 4 possible values
 - 1 bit -> exc. / inh.
-- ![[Pasted image 20210606192923.png]]
+- ![Pasted image 20210606192923.png](Pasted%20image%2020210606192923.png)
 	- Current converter and short-term depression blocks
 - STD behavior:
-	- ![[Pasted image 20210606193110.png]]
+	- ![Pasted image 20210606193110.png](Pasted%20image%2020210606193110.png)
 
 #### I/O Blocks
 - AER Blocks
@@ -81,11 +81,11 @@
 ## Results
 ### Attractor Networks
 - cf. [[Dynamic Field Theory#Attractors and Instabilities]]
-- ![[Pasted image 20210606193657.png]]
+- ![Pasted image 20210606193657.png](Pasted%20image%2020210606193657.png)
 
 ### Multi-Layer Perceptron
 - DVS input for image classification
-- ![[Pasted image 20210606194017.png]]
+- ![Pasted image 20210606194017.png](Pasted%20image%2020210606194017.png)
 - Most complex aspects disabled
-- ![[Pasted image 20210606194238.png]]
+- ![Pasted image 20210606194238.png](Pasted%20image%2020210606194238.png)
 

@@ -10,12 +10,12 @@
 - 28x28 input images
 - Semantic POinter Architecture Unified Network (SPAUN)
 - Architecture 
-	- ![[Pasted image 20210707113806.png]]
+	- ![Pasted image 20210707113806.png](Pasted%20image%2020210707113806.png)
 - Semantic pointers -> elements of compressed neural vector space
 - Action-selection mechanism based on spiking basal ganglia
 
 ### WM Task
-![[Pasted image 20210707115240.png]]
+![Pasted image 20210707115240.png](Pasted%20image%2020210707115240.png)
 
 ### Coordination
 - Unified neural system for learning multiple tasks

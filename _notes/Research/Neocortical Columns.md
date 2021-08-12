@@ -60,10 +60,10 @@
 - Optional
 - Robustness to noise and location ambiguity
 
-![[Pasted image 20210504103500.png]]
+![Pasted image 20210504103500.png](Pasted%20image%2020210504103500.png)
 
 ### Example
-![[Pasted image 20210504104110.png]]
+![Pasted image 20210504104110.png](Pasted%20image%2020210504104110.png)
 - Disambiguation of Objects with shared features
 - $f_1$: ambiguous feature
 	- Simultaneous invocation of union of representations
@@ -103,16 +103,16 @@
 
 ### Network Convergence
 - Multiple columns working together - reduction in number of sensations required
-	![[Pasted image 20210504110150.png]]
+	![Pasted image 20210504110150.png](Pasted%20image%2020210504110150.png)
 	
 -  More objects in training set - more sensations required to decide
-	![[Pasted image 20210504110348.png]]
+	![Pasted image 20210504110348.png](Pasted%20image%2020210504110348.png)
 	
 -  Unique objects -> faster
-	![[Pasted image 20210504110354.png]]
+	![Pasted image 20210504110354.png](Pasted%20image%2020210504110354.png)
 	
 -  Performance almost as good as ideal observer with locations
-	![[Pasted image 20210504110403.png]]
+	![Pasted image 20210504110403.png](Pasted%20image%2020210504110403.png)
 	
 ### Capacity
 - How many objects can 1 column represent?
@@ -123,11 +123,11 @@
 - Similarly for $n$ output cells and $m$ active output cells
 - Capacity limited by pooling capacity of output layer
 - 1 column - 100s of objects before hitting this limit
-- ![[Pasted image 20210504113013.png]]
+- ![Pasted image 20210504113013.png](Pasted%20image%2020210504113013.png)
 
 ### Noise Robustness
 - Noise affects active bits without changing overall sparsity
-- ![[Pasted image 20210504113853.png]]
+- ![Pasted image 20210504113853.png](Pasted%20image%2020210504113853.png)
 
 ### Mapping to Biology
 - Evidence of this model in neocortex
@@ -142,7 +142,7 @@
 - Location from L6a
 #### L6a::5
 - No exact mapping / unclear
-- ![[Pasted image 20210504131834.png]]
+- ![Pasted image 20210504131834.png](Pasted%20image%2020210504131834.png)
 - Thalamo-cortical (TC), Cortico-cortical (CC)
 - Green - feedforward, Red - location signal
 - a - L4::2/3 ; b -L6a::5

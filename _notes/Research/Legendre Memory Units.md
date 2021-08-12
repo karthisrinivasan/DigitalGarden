@@ -7,8 +7,8 @@
 ## Memory Cell
 - Orthogonalizes time history of its input signal across a sliding window
 - Approximate the delay $F(s)=e^{-\theta s}$ by coupled ODEs
-- ![[Pasted image 20210710161025.png]]
-- ![[Pasted image 20210710161235.png]]
+- ![Pasted image 20210710161025.png](Pasted%20image%2020210710161025.png)
+- ![Pasted image 20210710161235.png](Pasted%20image%2020210710161235.png)
 
 ## Characteristics
 - Linear-nonlinear trade-off
@@ -17,5 +17,5 @@
 	- d,n set independently to trade storage for parameters while balancing linear memory capacity with hidden nonlinear processing
 
 ## Spiking Implementation
-- ![[Pasted image 20210710161835.png]]
+- ![Pasted image 20210710161835.png](Pasted%20image%2020210710161835.png)
 

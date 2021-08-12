@@ -29,7 +29,7 @@
 	- More resolution needed in lower frequencies  - nature of speech
 	- Band spacing - Fibonacci, M=5
 	- Range: R=4000Hz
-![[Pasted image 20210508124945.png]]
+![Pasted image 20210508124945.png](Pasted%20image%2020210508124945.png)
 - Feature: Average energy in frame
 
 ## Input Spike Generation
@@ -42,7 +42,7 @@
 - $\frac{dU}{dt} = a[b(V − V_{rest})−U]$
 - Reset: if $V>V_{peak}: V=c , U=U+d, spike$
 - U - Inhibitory factor for spike, keeps membrane potential near $V_{rest}$
- ![[Pasted image 20210508130156.png]]
+ ![Pasted image 20210508130156.png](Pasted%20image%2020210508130156.png)
 
 ## Network Architecture
 - N feature vectors, M components each
@@ -59,7 +59,7 @@
 	- STDP for training input-output synapses
 	- Inputs to output layer used to train SVM for classification
 #### Neuron model
-![[Pasted image 20210508131002.png]]
+![Pasted image 20210508131002.png](Pasted%20image%2020210508131002.png)
 - Input layer - only $I_{inj}$
 - Output layer - only $G_k$
 - Learning - modifying $G_k$

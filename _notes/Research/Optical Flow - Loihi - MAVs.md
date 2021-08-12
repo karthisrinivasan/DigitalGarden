@@ -5,9 +5,9 @@
 - Insects great at this
 - Optic flow - brightness change in retina due to observer's relative motion
 - [[Loihi - Survey of Results]] chip - fully embedded application - 1st
-- ![[Pasted image 20210515185039.png]]
+- ![Pasted image 20210515185039.png](Pasted%20image%2020210515185039.png)
 - Ventral optic flow divergence -> Thrust setpoint for smooth landing
-- ![[Pasted image 20210515185207.png]]
+- ![Pasted image 20210515185207.png](Pasted%20image%2020210515185207.png)
 
 ## Materials and  Methods
 #### Vertical Landing with Optical Flow Divergence
@@ -24,7 +24,7 @@
 #### SNN
 Simulation:
 - Standard LIF Model
-- ![[Pasted image 20210515191112.png]]
+- ![Pasted image 20210515191112.png](Pasted%20image%2020210515191112.png)
 - 'Position coding' : Each value of $\hat{D}(t)-D_{sp}$ -> 1 of 20 buckets -> triggers single spike
 - Cubical tuning curves
 - Decoding to continuous $T_{sp}$
@@ -46,8 +46,8 @@ Evolutionary Optimization:
 - Only z-dimension controlled by Loihi
 	- (x,y) controlled through OptiTrack motion capture system
 - PySNN simulation and on-chip networks exhibit no significant differences
-- ![[Pasted image 20210515202619.png]]
-- ![[Pasted image 20210515202824.png]]
+- ![Pasted image 20210515202619.png](Pasted%20image%2020210515202619.png)
+- ![Pasted image 20210515202824.png](Pasted%20image%2020210515202824.png)
 #### Real-World Landings
-- ![[Pasted image 20210515203025.png]]
-- ![[Pasted image 20210515203033.png]]
+- ![Pasted image 20210515203025.png](Pasted%20image%2020210515203025.png)
+- ![Pasted image 20210515203033.png](Pasted%20image%2020210515203033.png)

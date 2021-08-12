@@ -1,7 +1,6 @@
 [[Research]] [[Neuromorphic]]
 # A Neuromorph's Prospectus
 - [[Kwabena Boahen]]
-[Research](Research.md)
 ### Introduction
 - Energy efficiency of using multiple low-quality channels
 - ![Pasted image 20210522195214.png](Pasted%20image%2020210522195214.png)

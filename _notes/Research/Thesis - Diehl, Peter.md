@@ -17,7 +17,7 @@
 	- Over/under activation of specific feature set
 
 ### Weight Normalization
-- ![[Pasted image 20210630115924.png]]
+- ![Pasted image 20210630115924.png](Pasted%20image%2020210630115924.png)
 - Better than all previous SNN methods on MNIST
 
 ## Sentiment Analysis on TrueNorth

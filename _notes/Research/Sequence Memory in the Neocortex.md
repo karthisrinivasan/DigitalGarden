@@ -5,7 +5,7 @@
 - Single distal synapse insignificant
 - Dendritic branches - independent pattern recognizers?
 - Sequence: activation -> prediction -> activation ...
-![[Pasted image 20210502190331.png]]
+![Pasted image 20210502190331.png](Pasted%20image%2020210502190331.png)
 	- B - Pyramidal neuron 
 	- C - Hierarchical temporal memory ([[Heirarchical Temporal Memory]]) model (software ims)
 
@@ -49,7 +49,7 @@
 	- 1 letter = sparse pattern
 	- Two diff reps required for b,c depending on context
 	- Need to know what to do after c based on what came before
-![[Pasted image 20210502192230.png]]
+![Pasted image 20210502192230.png](Pasted%20image%2020210502192230.png)
 - All have same receptive fields
 	- Input converted to sparse mini columns
 	- Unanticipated input - all active
@@ -58,7 +58,7 @@
 - Basal synapses - learn transitions between input patterns
 - Generate predictions
 - If input keeps matching prediction, sequence continues
-![[Pasted image 20210502193301.png]]
+![Pasted image 20210502193301.png](Pasted%20image%2020210502193301.png)
 	- Black active, red depolarized predicted
 	- a) A - unexpected input  - predicted b - if really b
 	- b) ambiguous input - both predicted -> both active -> both predicted and so on
@@ -70,7 +70,7 @@
 - Feedback connections provide expectation/bias
 - New feedforward input - part of predicted sequence
 	- Biases toward certain interpretations
-![[Pasted image 20210502223715.png]]
+![Pasted image 20210502223715.png](Pasted%20image%2020210502223715.png)
 	- Sparse if expected, highly active if not
 	- Network previously learned bcd
 - Lateral connections to basal dendrites - predict next input
@@ -80,7 +80,7 @@
 - Learning occurs by growing/removing synapses from 'potential synapse' pool.
 - Hebbian learning at dendritic segment level, not neuronal level
 - Potential Synapses:
-![[Pasted image 20210502224305.png]]
+![Pasted image 20210502224305.png](Pasted%20image%2020210502224305.png)
 	- Each dendrite segment of [[Heirarchical Temporal Memory]] neuron: maintain a potential synapse set
 	- No. of potential synapses >> No. of actual synapses
 	- Assigned permanence value - represents stage of growth 
@@ -95,7 +95,7 @@
 ### Results
 - Simulation: No apical synapses
 - Exhibits all 5 properties
-![[Pasted image 20210502224822.png]]
+![Pasted image 20210502224822.png](Pasted%20image%2020210502224822.png)
 	- Maximum possible performance: 50%
 	- Only achievable using high order representations
 	- Data stream is changed: model recovers after dip
@@ -151,24 +151,24 @@
 - Random permanence initialization
 - $W^t$  :  set of k columns that match feedforward input pattern - winning columns
 - Active state calculated as: 
-![[Pasted image 20210502232337.png]]
+![Pasted image 20210502232337.png](Pasted%20image%2020210502232337.png)
 	- Activate if in winning column and predicted correctly previously
 	- If not predicted previously, activate all cells in column
 - Predictive state calculated as:
-![[Pasted image 20210502232440.png]]
+![Pasted image 20210502232440.png](Pasted%20image%2020210502232440.png)
 	- $\theta$  :  spike thresholds
 - Updating segments and synapses:
 	- $D^d_{ij}$  chosen such that:
-![[Pasted image 20210502232605.png]]
+![Pasted image 20210502232605.png](Pasted%20image%2020210502232605.png)
 	- Selects winning column with correct prediction and then selects the segments responsible for it
 - If input was unpredicted, need to find new cell to assign that transition:
 	- Select segment closest to being active
 	- Reinforce the segment which satisfies:
-![[Pasted image 20210502232755.png]]
+![Pasted image 20210502232755.png](Pasted%20image%2020210502232755.png)
 	- Didn't activate **and** closest to active
 - To perform reinforcement, new D is:
-![[Pasted image 20210502232922.png]]
+![Pasted image 20210502232922.png](Pasted%20image%2020210502232922.png)
 - Decay segments that didn't become active
 	- Can happen in mistakenly reinforced by chance
-![[Pasted image 20210502233002.png]]
+![Pasted image 20210502233002.png](Pasted%20image%2020210502233002.png)
 - Two $\Delta D$s are added to $D$ every time step

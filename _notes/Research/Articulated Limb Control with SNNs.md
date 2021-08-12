@@ -2,9 +2,9 @@
 
 # Controlling Articulated Robots in Task-Space with Spiking Silicon Neurons
 
-[[Research/Kwabena Boahen]]
+[[Kwabena Boahen]]
 
-![[Pasted image 20210615124840.png]]
+![Pasted image 20210615124840.png](Pasted%20image%2020210615124840.png)
 
 ## Task Space Control
 - Operational space framework
@@ -25,7 +25,7 @@
 	- Delays
 - Five pools -> represent 3 variables
 
-- ![[Pasted image 20210615125610.png]]
+- ![Pasted image 20210615125610.png](Pasted%20image%2020210615125610.png)
 
 - $\Gamma = J^T_xf^*_x+\Gamma_g*$
 - $J_x = [J_{x,0}\;J_{x,1}\;J_{x,2}]$
@@ -34,7 +34,7 @@
 - $J_{x,2}^T = [-0.35cos(q_0)sin(q_2))\;\;-0.35sin(q_0)sin(q_2))\;\;-0.35cos(q_2)]$
 - $\Gamma_g^T=[0\;\;1.026sin(q_1)\;\;1.612cos(q_2)]$
 - Each term function  of 3 or fewer inputs
-- ![[Pasted image 20210615133754.png]]
+- ![Pasted image 20210615133754.png](Pasted%20image%2020210615133754.png)
 
 
 ### Regression
@@ -42,7 +42,7 @@
 - Restricted joint angles and forces according to robot operating range
 - Decoding weights: $d=argmin_d\;||Ad-y||_2+\lambda||d||_2$
 - Responses of the 5 3D pools:
-- ![[Pasted image 20210615130118.png]]
+- ![Pasted image 20210615130118.png](Pasted%20image%2020210615130118.png)
 
 
 ### Programming
@@ -61,7 +61,7 @@
 
 ### Increasing Performance
 - Better with more neurons
-- ![[Pasted image 20210615131251.png]]
+- ![Pasted image 20210615131251.png](Pasted%20image%2020210615131251.png)
 - Lack of inertial model is a constraint
 	- forced to use conservative values for proportional gains, with over-damping
 	- reduces ability to overcome anisotropic friction

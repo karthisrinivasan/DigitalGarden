@@ -40,7 +40,7 @@
 	- offline: deploy trained model
 - Performance with respect to Loihi
 - Metric: Energy Delay Product (diag line = const)
-- ![[Pasted image 20210507093222.png]]
+- ![Pasted image 20210507093222.png](Pasted%20image%2020210507093222.png)
 
 ### Deep DNN Conversion
 - Near lossless
@@ -73,7 +73,7 @@
 - Feature neurons - mutually inhibited with recurrent connections
 - balance between feedforward input and recurrent inhibition  -> competition
 - Equivalent to LASSO 
-- ![[Pasted image 20210507102137.png]]
+- ![Pasted image 20210507102137.png](Pasted%20image%2020210507102137.png)
 - Sparse coding - protection from adversarial images
 - LCA - first processing layer in neuromorphic pipeline
 - Dictionary learning - online, unsupervised
@@ -111,7 +111,7 @@
 	- n: no. of edges
 	- d: average edge cost
 	- E: proportional to no. of edges and nodes
-- ![[Pasted image 20210507194925.png]]
+- ![Pasted image 20210507194925.png](Pasted%20image%2020210507194925.png)
 
 ### Stochastic Constrained Optimization
 - Solve NP-complete constraint satisfaction problems
@@ -122,7 +122,7 @@
 - WTAs - individual variables
 - All-different constraint - inhibitory connections
 - Pruning through firing until only non-conflicting neurons are active
-- ![[Pasted image 20210507201051.png]]
+- ![Pasted image 20210507201051.png](Pasted%20image%2020210507201051.png)
 - Loihi faster, more efficient
 - 1000x smaller EDP
 - Incomplete solver, of course
@@ -164,4 +164,4 @@
 	- Expensive logic state bits
 	- Cheap integration of memory devices (RRAM, PCM etc.)
 
-![[Pasted image 20210507203329.png]]
+![Pasted image 20210507203329.png](Pasted%20image%2020210507203329.png)

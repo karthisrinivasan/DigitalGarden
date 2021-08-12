@@ -4,10 +4,10 @@
 [[Andre van Schaik]]
 
 - [[Subthreshold CMOS Analog Design#Translinear Principle]]
-- ![[Pasted image 20210627194124.png]]
+- ![Pasted image 20210627194124.png](Pasted%20image%2020210627194124.png)
 	- $i_{i-1}=[\tau_is+1-A_i]i_i+A_ii_{i+1}$
 	- $\tau_i=CU_T/I_0$
-- ![[Pasted image 20210627191246.png]]
+- ![Pasted image 20210627191246.png](Pasted%20image%2020210627191246.png)
 	- $i_{out}i_i=A_iI_0i_{i+1}$
 - Cascade of tau cells
 	- $T_i=\frac{i_i}{i_{i-1}}=\frac{1}{[\tau_is+1-A_i]i_i+A_iT_{i+1}}$

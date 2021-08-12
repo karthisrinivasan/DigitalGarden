@@ -20,11 +20,11 @@
 	- typically 0.2
 - c: reset potential, typically -65mV
 - d: reset of u,  typically 2
-- ![[Pasted image 20210602183730.png]]
-- ![[Pasted image 20210602183852.png]]
+- ![Pasted image 20210602183730.png](Pasted%20image%2020210602183730.png)
+- ![Pasted image 20210602183852.png](Pasted%20image%2020210602183852.png)
 
 ## Types of Dynamics
-- ![[Pasted image 20210613092702.png]]
+- ![Pasted image 20210613092702.png](Pasted%20image%2020210613092702.png)
 - Regular spiking (RS)
 	- most common
 	- spike frequency adaptation
@@ -53,7 +53,7 @@
 - 10k neurons, 1M synapses
 - 4:1 excitatory:inhibitory connection number
 - Randomly distributed between RS and CH parameters
-- ![[Pasted image 20210602184641.png]]
+- ![Pasted image 20210602184641.png](Pasted%20image%2020210602184641.png)
 - Cortex-like dynamics
 - Mean firing rate ~8Hz
 - Self organization into assemblies despite range initializations

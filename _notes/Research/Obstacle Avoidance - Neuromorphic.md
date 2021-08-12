@@ -13,7 +13,7 @@
 
 ### Materials and Methods
 - Pushbot, ROLLS, Parallella computing board for control (optional in application scenarios => fully neuromorphic)
-![[Pasted image 20210508232249.png]]
+![Pasted image 20210508232249.png](Pasted%20image%2020210508232249.png)
 - Parallella - manages event stream between processor and robot
 
 #### ROLLS
@@ -21,7 +21,7 @@
 - Fully connectable
 - 256x256 programmable synapses; 256 learnable synapses
 - No online learning used here
-![[Pasted image 20210508233143.png]]
+![Pasted image 20210508233143.png](Pasted%20image%2020210508233143.png)
 - 8 level weight quantization
 - 4mW avg. power consumption
 
@@ -33,7 +33,7 @@
 - Challenges: homogeneous surface, noise, low spatial resolution, limited FOV
 
 #### Network Architecture
-![[Pasted image 20210509010428.png]]
+![Pasted image 20210509010428.png](Pasted%20image%2020210509010428.png)
 - A - Obstacle avoidance architecure
 - B - Target acquisition structure
 - OL/OR - Obstacle left/right - 16 neurons each
@@ -69,38 +69,38 @@
 #### Combining Avoidance and Acquisition
 - ROLLS biases - obstacle contribution strength
 - Connectivity matrix of programmable synapses
-![[Pasted image 20210510015834.png]]
+![Pasted image 20210510015834.png](Pasted%20image%2020210510015834.png)
 
 #### Single Obstacle
-![[Pasted image 20210512091054.png]]
+![Pasted image 20210512091054.png](Pasted%20image%2020210512091054.png)
 - Performance changes with speed, contrast of object
 
 #### Two Obstacles
-![[Pasted image 20210512091511.png]]
+![Pasted image 20210512091511.png](Pasted%20image%2020210512091511.png)
 - Detect events that are clustered in time and space
 - Around both safer than in between the two
 - Adaptive connectivity depending on speed is feasible [[Ideas+Thoughts]]
 
 #### Moving Obstacle
 - More robust than static as it produces more DVS events
-- ![[Pasted image 20210512091829.png]]
+- ![Pasted image 20210512091829.png](Pasted%20image%2020210512091829.png)
 
 #### Cluttered Environment
 - Limitations:
 	- Narrow FOV
 	- Limited contrast range
-	- ![[Pasted image 20210512092016.png]]
+	- ![Pasted image 20210512092016.png](Pasted%20image%2020210512092016.png)
 	- Improvements:
 		- 2 extra populations to suppress obstacle populations when robot is turning
 		- Graded connections - obstacles in center of FOV - stronger activation
 
 #### Behavior Variability
 - Can be used as drive for exploration
-- ![[Pasted image 20210512095514.png]]
+- ![Pasted image 20210512095514.png](Pasted%20image%2020210512095514.png)
 
 #### Target Acquisition
-- ![[Pasted image 20210512101055.png]]
+- ![Pasted image 20210512101055.png](Pasted%20image%2020210512101055.png)
 - Chasing a moving target:
-- ![[Pasted image 20210512101141.png]]
+- ![Pasted image 20210512101141.png](Pasted%20image%2020210512101141.png)
 
 

@@ -144,4 +144,3 @@
 - 17th century priest
 - First feminist
 - Poulain rejected a marital contract that granted men dominion over women; he declared that marriage should be between equals, like friendship, and that husbands forced wives into a submissive role for no better reason than that they were “out-and-out bullies.”
-- 

@@ -18,10 +18,10 @@ Taylor Clawson [[Terrence Stewart]] [[Chris Eliasmith]]
 	- Portion of SNN control turned offline to approximate linear controller
 
 ## Dynamic Model
-- ![[Pasted image 20210608115618.png]]
+- ![Pasted image 20210608115618.png](Pasted%20image%2020210608115618.png)
 - Only stroke angle can be controlled directly
 - Wing pitch cannot be controlled during flight
-- ![[Pasted image 20210608120132.png]]
+- ![Pasted image 20210608120132.png](Pasted%20image%2020210608120132.png)
 	- Roll control -> relative amplitude
 	- Pitch control -> mean stroke angle
 - Instability -> net drag above CoM
@@ -51,7 +51,7 @@ Taylor Clawson [[Terrence Stewart]] [[Chris Eliasmith]]
 - Eg. step change in roll input $u_r$
 	- Causes primarily rolling
 	- Left amplitude > right amplitude
-	- ![[Pasted image 20210608123318.png]]
+	- ![Pasted image 20210608123318.png](Pasted%20image%2020210608123318.png)
 	- $B$ significantly affected due to yaw torque
 		- a - linearized transient response calculation
 		- b - equilibrium trajectory for body, linearization for wing
@@ -111,15 +111,15 @@ Taylor Clawson [[Terrence Stewart]] [[Chris Eliasmith]]
 	- Static amplitude bias between L,R for roll
 	- Stroke angle offset for pitch
 - PIF Compensator
-	- ![[Pasted image 20210608132434.png]]
-	- ![[Pasted image 20210608132511.png]]
+	- ![Pasted image 20210608132434.png](Pasted%20image%2020210608132434.png)
+	- ![Pasted image 20210608132511.png](Pasted%20image%2020210608132511.png)
 	- Yaw unstabilized, x,y velocities slow stabilization
 	- In-plane rotation + position drift
 - SNN Controller
 	- Adaptive term tuned using grid parameter search
 	- RoboBee remains within 10cm of starting position
-	- ![[Pasted image 20210608132856.png]]
-	- ![[Pasted image 20210608132905.png]]
+	- ![Pasted image 20210608132856.png](Pasted%20image%2020210608132856.png)
+	- ![Pasted image 20210608132905.png](Pasted%20image%2020210608132905.png)
 	- No yaw control authority still, so no stabilization
 
 

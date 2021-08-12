@@ -6,7 +6,7 @@
 
 
 - Proposed System:
-- ![[Pasted image 20210602231632.png]]
+- ![Pasted image 20210602231632.png](Pasted%20image%2020210602231632.png)
 - Continuous real-time evaluation
 - No segmentation of signal / synchronization to heartbeats
 - Analog signal -> Lebesgue sampling -> event/spike trains -> spiking RNN (LIF) -> Linear readout layer to detect anomalous patterns
@@ -20,7 +20,7 @@
 ### ECG Data Set, Spike Conversion
 -  Labels: Normal / Exhibiting 1 of 18 anomalous conditions
 -  0.1-100Hz BPF, 360Hz sampling
--  ![[Pasted image 20210603122651.png]]
+-  ![Pasted image 20210603122651.png](Pasted%20image%2020210603122651.png)
 -  Conversion to events through a DSM
 
 ### sRNN Architecture
@@ -34,7 +34,7 @@
 		- 16 from inhibitory
 	- non-recurrent inhibitory group (128)
 		- 64 connections from excitatory
-- ![[Pasted image 20210603122927.png]]
+- ![Pasted image 20210603122927.png](Pasted%20image%2020210603122927.png)
 - Random connections and hardware mismatch -> high dimensional representation
 - Close to edge of chaos -> rich response
 
@@ -55,7 +55,7 @@
 - Classification of anomaly type not required; only detection
 	- Binary output
 - 2.4% false negative rate
-- ![[Pasted image 20210603123941.png]]
+- ![Pasted image 20210603123941.png](Pasted%20image%2020210603123941.png)
 - Low sensitivity in PVC: reason unknown
 
 ### Power Consumption

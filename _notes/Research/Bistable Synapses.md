@@ -27,25 +27,25 @@
 	- $\frac{dX}{dt}=\alpha$ if $X>\theta_X$
 	- $\frac{dX}{dt}=-\beta$ if $X<\theta_X$
 	- Held if reaches boundary value
-- ![[Pasted image 20210611194902.png]]
+- ![Pasted image 20210611194902.png](Pasted%20image%2020210611194902.png)
 
 ## Single Synapse Behavior
-- ![[Pasted image 20210611195007.png]]
-- ![[Pasted image 20210611195345.png]]
+- ![Pasted image 20210611195007.png](Pasted%20image%2020210611195007.png)
+- ![Pasted image 20210611195345.png](Pasted%20image%2020210611195345.png)
 
 ## Network Performance
-- ![[Pasted image 20210611195635.png]]
-- ![[Pasted image 20210611200151.png]]
+- ![Pasted image 20210611195635.png](Pasted%20image%2020210611195635.png)
+- ![Pasted image 20210611200151.png](Pasted%20image%2020210611200151.png)
 	- Frequency response histogram
 	- time increases back to front
 	- Solid - LTD, dashed - LTP
 
 ## Parameter Variation Effects
-- ![[Pasted image 20210611201012.png]]
+- ![Pasted image 20210611201012.png](Pasted%20image%2020210611201012.png)
 
 ## Biological Relevance
 - Experimental stimulation protocols applied to synapse model
 	- Results agree with real synapses
-- ![[Pasted image 20210611201422.png]]
+- ![Pasted image 20210611201422.png](Pasted%20image%2020210611201422.png)
 	- Phase related pre and post spikes
 

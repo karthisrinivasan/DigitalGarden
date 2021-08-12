@@ -3,7 +3,7 @@
 # A Low Supply-Noise Neuron
 [[Timothy Horiuchi]]
 
-![[Pasted image 20210614164902.png]]
+![Pasted image 20210614164902.png](Pasted%20image%2020210614164902.png)
 
 Constant current draw on Vdd even during spike
 
