@@ -1,4 +1,5 @@
 [[Research]]
+[[Dynamic Field Theory]]
 ## Dynamic Neural Fields
 - Population-based models of dynamics
 - Used for large homogeneous populations

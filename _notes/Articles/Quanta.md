@@ -52,3 +52,10 @@
 	- Reverse process then happens
 	- Net energy absorbed is zero
 - Only discrete time translation symmetry (every period of laser)
+
+# Turing Patterns
+- Regular patterns for randomness/perfect homogeneity through differing rates of diffusion of substances
+- ![Pasted image 20210817122332.png](Pasted%20image%2020210817122332.png)
+- Some wavelengths amplified, some suppressed
+- ![Pasted image 20210817122506.png](Pasted%20image%2020210817122506.png)
+- Also important in morphogenesis and cellular differentiation
