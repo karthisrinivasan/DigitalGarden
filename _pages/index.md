@@ -20,7 +20,7 @@ Recent:
 
 [[Neuroscience and Neuromorphic Engineering]]
 
-[[Mosaic - Reconfigurable small world networks]]
+[[Mosaic Reconfigurable small world networks]]
 
 [[Legendre Memory Units]]
 
