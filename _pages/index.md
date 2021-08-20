@@ -13,6 +13,13 @@ A book I'm currently reading: [[Dynamic Field Theory]]
 
 The [[Research]] note is a good place to start exploring this garden as it is one of the most backlinked-to notes. Also check out the [[Graph]], which is also available at the bottom of every note.
 
+Topics:
+[[Articles]] [[Books]] [[Research]] [[Videos]]
+Recent:
+[[Neuroscience and Neuromorphic Engineering]]
+[[Mosaic - Reconfigurable small world networks]]
+[[Legendre Memory Units]]
+
 <style>
   .wrapper {
     max-width: 46em;

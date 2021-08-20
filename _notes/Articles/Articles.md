@@ -1,7 +1,4 @@
 # Articles Overview
 
- 
-```ccard
-type: folder_brief_live
-```
+Articles from online magazines and newsletters that I read regularly.
  
