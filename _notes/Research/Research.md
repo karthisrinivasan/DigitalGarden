@@ -1,7 +1,4 @@
 # Research Overview
  
-```ccard
-type: folder_brief_live
-style: strip
-```
+Check the notes on the right to see which ones fall under the [[Research]] category
  
