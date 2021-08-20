@@ -15,9 +15,13 @@ The [[Research]] note is a good place to start exploring this garden as it is on
 
 Topics:
 [[Articles]] [[Books]] [[Research]] [[Videos]]
+
 Recent:
+
 [[Neuroscience and Neuromorphic Engineering]]
+
 [[Mosaic - Reconfigurable small world networks]]
+
 [[Legendre Memory Units]]
 
 <style>
