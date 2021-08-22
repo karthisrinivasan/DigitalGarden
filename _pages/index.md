@@ -20,9 +20,9 @@ Recent:
 
 [[Neuroscience and Neuromorphic Engineering]]
 
-[[Mosaic Reconfigurable small world networks]]
+[[van Rossum Distance]]
 
-[[Legendre Memory Units]]
+[[Surrogate Gradient Learning]]
 
 <style>
   .wrapper {
