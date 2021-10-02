@@ -20,7 +20,7 @@
 	- $A$ -> spike activation of k-th channel and time-step t, (i,j) pixel location
 	- Ground truth label -> c
 - Weighted sum:
-	- $G^c_{ij,t} = max ( 0,\sum_k \alpha^{c,k}_t A^k_{ij,t} )$
+	- $G^c_{ij,t}=max(0,\sum_k\alpha^{c,k}_tA^k_{ij,t}	)$
 	- The SNN-crafted Grad-CAM score
 - Suffers from heatmap smoothing effect
 	- Caused by approximation of backward gradient
@@ -29,8 +29,8 @@
 - SAM only uses spike activity in forward propagation
 - Works without ground truth labels
 - Temporal Spike Contribution Score:
-	- $T(t,t') = exp (- \gamma |t-t'| )$
-- $P^k_{ij}$ -> Set of previous firing times of neuron i k-th channel at location (i,j)
+	- $T(t,t')=exp(-\gamma|t-t'|)$
+- $P^k_{ij}$ -> Set of previous firing times of neuron in k-th channel at location (i,j)
 - Compute Neuronal Contribution Score (NCS): $N^k_{ij,t}$:
 	- $N^k_{ij,t}=\sum_{t' \in P^k_{ij}}T(t,t')$
 	- High if spikes frequently over short interval
