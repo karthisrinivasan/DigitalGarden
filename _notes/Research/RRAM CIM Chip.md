@@ -9,7 +9,7 @@
 - Scaling down with process
 	- 130nm to 7nm: 2-3x EDP improvement
 - Power consumption reduction
-	- ![[Pasted image 20210911114244.png]]
+	- ![Pasted image 20210911114244.png](Pasted%20image%2020210911114244.png)
 - RRAM device scaling
 	- Lower forming voltage -> higher density, lower parasitics
 - Other architectures besides voltage integrating neurons

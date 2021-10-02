@@ -10,7 +10,7 @@
 - Agent gets reward based on current state and action taken
 	- $f(S_t,A_t)=R_{t+1}$
 - Sequence of events: $S_0,A_0,R_1,S_1,A_1,R_2...$
-- ![[Pasted image 20210909185251.png]]
+- ![Pasted image 20210909185251.png](Pasted%20image%2020210909185251.png)
 ## Transition Probabilities
 - $S$ and $R$ are finite sets
 - Probability that system goes to state $s'$ with reward $r$, given that system is currently in state $s$ and action $a$ is performed:
@@ -81,7 +81,7 @@
 - Function approximator to approximate the q-function instead of compute it using value iteration
 	- Neural network 
 	- Deep Q Network (DQN)
-- ![[Pasted image 20210914121053.png]]
+- ![Pasted image 20210914121053.png](Pasted%20image%2020210914121053.png)
 	- SGD/BP to train towards ideal q values
 
 ### Deep Q Network

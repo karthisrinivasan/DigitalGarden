@@ -20,7 +20,7 @@
 	- $A$ -> spike activation of k-th channel and time-step t, (i,j) pixel location
 	- Ground truth label -> c
 - Weighted sum:
-	- $G^c_{ij,t}=max(0,\sum_k \alpha^{c,k}_t A^k_{ij,t})$
+	- $G^c_{ij,t} = max(0,\sum_k \alpha^{c,k}_t A^k_{ij,t})$
 	- The SNN-crafted Grad-CAM score
 - Suffers from heatmap smoothing effect
 	- Caused by approximation of backward gradient
@@ -37,13 +37,13 @@
 - Calculate SAM heatmap $M_{ij,t}$:
 	- $M_{ij,t}=\sum_k N^k_{ij,t} S^k_{ij,t}$
 	- $S$ -> spike activity of neuron at (i,j) at time step t
-- ![[Pasted image 20211002093242.png]]
+- ![Pasted image 20211002093242.png](Pasted%20image%2020211002093242.png)
 - Works well when applied to ANNs also
 
 ## Results
 - Conversion doesn't work as well (less interpretable) than SGD as it doesn't take temporal patterns into account
 - SAM more robust to adversarial attacks (small structured perturbations in the input image, parameter $\epsilon$) compared to Grad-CAM in ANNs
 	- Temporal processing allowed compensation and correction of noise
-	- ![[Pasted image 20211002094757.png]]
+	- ![Pasted image 20211002094757.png](Pasted%20image%2020211002094757.png)
 - Sensory suppression -> focus on one part of image (when two are concatenated here):
-	- ![[Pasted image 20211002094826.png]]
+	- ![Pasted image 20211002094826.png](Pasted%20image%2020211002094826.png)
