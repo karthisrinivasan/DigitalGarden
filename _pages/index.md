@@ -14,15 +14,15 @@ A book I'm currently reading: [[Dynamic Field Theory]]
 The [[Research]] note is a good place to start exploring this garden as it is one of the most backlinked-to notes. Also check out the [[Graph]], which is also available at the bottom of every note.
 
 Topics:
-[[Books]] [[Research]] 
+[[Books]] [[Research]]
 
 Recent:
 
-[[Neuroscience and Neuromorphic Engineering]]
+[[DECOLLE]]
 
-[[van Rossum Distance]]
+[[RRAM CIM Chip]]
 
-[[Surrogate Gradient Learning]]
+[[Visual explanations from SNNS]]
 
 <style>
   .wrapper {
